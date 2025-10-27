@@ -7,12 +7,11 @@ export function Terminal() {
   const [terminalStep, setTerminalStep] = useState(0);
   const [copied, setCopied] = useState(false);
   const terminalSteps = [
-    'git clone https://github.com/nextjs/saas-starter',
-    'pnpm install',
-    'pnpm db:setup',
-    'pnpm db:migrate',
-    'pnpm db:seed',
-    'pnpm dev 🎉',
+    'Initializing acoustic sensors...',
+    'Processing underwater signals...',
+    'AI detection algorithm running...',
+    'Classifying detected objects...',
+    'Generating security report',
   ];
 
   useEffect(() => {
