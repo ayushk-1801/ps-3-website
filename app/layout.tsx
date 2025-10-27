@@ -4,8 +4,8 @@ import { Manrope } from 'next/font/google';
 import { SWRConfig } from 'swr';
 
 export const metadata: Metadata = {
-  title: 'Next.js SaaS Starter',
-  description: 'Get started quickly with Next.js, Postgres, and Stripe.'
+  title: 'StarkVision - AI-Powered Underwater Domain Awareness',
+  description: 'Advanced AI solution for real-time detection and classification of objects in underwater acoustic data, enhancing maritime security and environmental monitoring.',
 };
 
 export const viewport: Viewport = {
