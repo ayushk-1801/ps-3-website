@@ -4,8 +4,8 @@ import { Manrope } from 'next/font/google';
 import { SWRConfig } from 'swr';
 
 export const metadata: Metadata = {
-  title: 'StarkVision - AI-Powered Underwater Domain Awareness',
-  description: 'Advanced AI solution for real-time detection and classification of objects in underwater acoustic data, enhancing maritime security and environmental monitoring.',
+  title: 'StarkVision - AI-Powered Visual Search in Satellite Imagery',
+  description: 'Advanced AI solution for real-time detection and classification of objects in satellite imagery, enhancing environmental monitoring and disaster response.',
 };
 
 export const viewport: Viewport = {

@@ -66,8 +66,8 @@ export default function AboutPage() {
             Meet Our Team
           </h1>
           <p className="mt-4 text-xl text-gray-500 max-w-3xl mx-auto">
-            The experts behind StarkVision, dedicated to
-            advancing AI-driven underwater surveillance technology.
+            The experts behind StarkVision, dedicated to advancing AI-driven
+            visual search, retrieval, and detection in satellite imagery.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export default function AboutPage() {
             >
               <CardContent className="p-4 lg:p-6">
                 <div className="relative mb-3 lg:mb-4">
-                  <div className="w-24 h-24 lg:w-32 lg:h-32 mx-auto rounded-full overflow-hidden ring-2 lg:ring-4 ring-gray-100 group-hover:ring-orange-200 transition-colors duration-300">
+                    <div className="w-24 h-24 lg:w-32 lg:h-32 mx-auto rounded-full overflow-hidden ring-2 lg:ring-4 ring-gray-100 group-hover:ring-violet-200 transition-colors duration-300">
                     <Image
                       src={member.photo}
                       alt={member.name}
@@ -90,18 +90,18 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-sm lg:text-lg font-semibold text-gray-900 mb-1 group-hover:text-orange-600 transition-colors duration-300">
+                  <h3 className="text-sm lg:text-lg font-semibold text-gray-900 mb-1 group-hover:text-violet-600 transition-colors duration-300">
                     {member.name}
                   </h3>
-                  <p className="text-xs lg:text-sm text-orange-500 font-medium mb-3 lg:mb-4">
+                  <p className="text-xs lg:text-sm text-violet-500 font-medium mb-3 lg:mb-4">
                     {member.designation}
                   </p>
                   <div className="flex justify-center space-x-2 lg:space-x-3">
                     {member.social.linkedin && (
-                      <Button
+                        <Button
                         variant="ghost"
                         size="sm"
-                        className="h-7 w-7 lg:h-8 lg:w-8 p-0 hover:bg-orange-50 hover:text-orange-600 transition-colors duration-200"
+                        className="h-7 w-7 lg:h-8 lg:w-8 p-0 hover:bg-violet-50 hover:text-violet-600 transition-colors duration-200"
                         asChild
                       >
                         <a
@@ -115,10 +115,10 @@ export default function AboutPage() {
                       </Button>
                     )}
                     {member.social.github && (
-                      <Button
+                        <Button
                         variant="ghost"
                         size="sm"
-                        className="h-7 w-7 lg:h-8 lg:w-8 p-0 hover:bg-orange-50 hover:text-orange-600 transition-colors duration-200"
+                        className="h-7 w-7 lg:h-8 lg:w-8 p-0 hover:bg-violet-50 hover:text-violet-600 transition-colors duration-200"
                         asChild
                       >
                         <a
