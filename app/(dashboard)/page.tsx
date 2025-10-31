@@ -14,7 +14,7 @@ export default function HomePage() {
                 <span className="block text-violet-500 mt-3">Automated visual search & dataset generation</span>
               </h1>
               <p className="mt-6 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                To develop a system to automatically search, identify and detect objects in a wide range of satellite images, producing labelled datasets that can be further trained and fine-tuned to object detection models directly.
+                A system to automatically search, identify and detect objects in a wide range of satellite images, producing labelled datasets that can be further trained and fine-tuned to object detection models directly.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <a
